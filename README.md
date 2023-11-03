@@ -9,3 +9,10 @@ The dataset used is the Amazon Customer Reviews Dataset, specifically focusing o
 **Download the dataset here:**
 ```bash
 wget http://deepyeti.ucsd.edu/jianmo/amazon/categoryFiles/Office_Products.json.gz
+
+## Setup and Dependencies
+Ensure you have Python installed. Then install the required libraries using the following commands:
+
+```bash
+pip install pandas numpy nltk requests beautifulsoup4 gzip scikit-learn contractions
+
